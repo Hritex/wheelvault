@@ -222,6 +222,17 @@ test-drive form panel intentionally stay dark in both modes (they use separate
 `--wv-panel-*` tokens) to match the reference design's persistent dark accent
 panels.
 
+**Logo note:** the WheelVault wordmark is rendered by
+`src/app/shared/components/logo/logo.component.ts` as *inline* SVG, not an
+`<img src="...svg">`. This matters — when an SVG is loaded via `<img>`, it
+renders in its own opaque context, so `currentColor` inside it resolves to the
+SVG's own default (black) regardless of the surrounding page's theme, which is
+why the logo disappeared in dark mode originally. Inlining it lets `currentColor`
+follow `--wv-black` (theme-aware) or `--wv-panel-text` (fixed light, via
+`variant="inverse"`, used in the footer) like everything else. The standalone
+file at `src/assets/img/wheelvault-logo.svg` still exists for use outside the
+app (social previews, external docs) but is no longer what renders on the site.
+
 ---
 
 ## 9. Test-drive / enquiry form

@@ -1,16 +1,17 @@
 import { Component, HostListener, inject, signal } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { ThemeService } from '../../../core/services/theme.service';
+import { LogoComponent } from '../logo/logo.component';
 
 @Component({
   selector: 'wv-header',
   standalone: true,
-  imports: [RouterLink, RouterLinkActive],
+  imports: [RouterLink, RouterLinkActive, LogoComponent],
   template: `
     <header class="wv-header" [class.wv-header--scrolled]="scrolled()">
       <div class="wv-shell wv-header__inner">
         <a routerLink="/" class="wv-logo" aria-label="WheelVault home">
-          <img src="assets/img/wheelvault-logo.svg" alt="WheelVault" height="28" />
+          <wv-logo [height]="28"></wv-logo>
         </a>
 
         <nav class="wv-nav-desktop" aria-label="Primary">

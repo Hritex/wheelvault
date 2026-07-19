@@ -1,15 +1,16 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { LogoComponent } from '../logo/logo.component';
 
 @Component({
   selector: 'wv-footer',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink, LogoComponent],
   template: `
     <footer class="wv-footer">
       <div class="wv-shell wv-footer__grid">
         <div class="wv-footer__brand">
-          <img src="assets/img/wheelvault-logo.svg" alt="WheelVault" height="26" style="filter: invert(1);" />
+          <wv-logo [height]="26" variant="inverse"></wv-logo>
           <p class="wv-muted" style="color:#9a9a96; max-width: 320px; margin-top: 14px;">
             Ex-showroom &amp; on-road prices, EMI guidance, owner reviews and spare parts info —
             for every major car brand on Indian roads.
