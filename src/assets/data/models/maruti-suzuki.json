@@ -26,12 +26,29 @@
       "safety": "6 airbags, ESP, Hill Hold Assist"
     },
     "variants": [
-      { "name": "LXI", "exShowroomPrice": 649000 },
-      { "name": "VXI", "exShowroomPrice": 729000 },
-      { "name": "ZXI", "exShowroomPrice": 829000 },
-      { "name": "ZXI+ AMT", "exShowroomPrice": 949000 }
+      {
+        "name": "LXI",
+        "exShowroomPrice": 649000
+      },
+      {
+        "name": "VXI",
+        "exShowroomPrice": 729000
+      },
+      {
+        "name": "ZXI",
+        "exShowroomPrice": 829000
+      },
+      {
+        "name": "ZXI+ AMT",
+        "exShowroomPrice": 949000
+      }
     ],
-    "colors": ["Arctic White", "Sizzling Red", "Nexa Blue", "Metallic Silky Silver"],
+    "colors": [
+      "Arctic White",
+      "Sizzling Red",
+      "Nexa Blue",
+      "Metallic Silky Silver"
+    ],
     "reviews": [
       {
         "author": "Rohit Malhotra",
@@ -51,19 +68,44 @@
       }
     ],
     "spareParts": {
-      "authorizedServiceNote": "Maruti Suzuki runs India's largest service network — over 4,300 outlets including Maruti Service Masters and NEXA workshops.",
+      "authorizedServiceNote": "Maruti Suzuki runs India's largest service network \u2014 over 4,300 outlets including Maruti Service Masters and NEXA workshops.",
       "commonParts": [
-        { "name": "Front brake pad set", "priceRange": "₹1,200 – ₹1,800" },
-        { "name": "Clutch plate assembly", "priceRange": "₹3,500 – ₹4,800" },
-        { "name": "Headlamp assembly (LED variants)", "priceRange": "₹4,200 – ₹6,500" },
-        { "name": "Air filter", "priceRange": "₹350 – ₹550" },
-        { "name": "Front bumper (unpainted)", "priceRange": "₹3,800 – ₹5,200" }
+        {
+          "name": "Front brake pad set",
+          "priceRange": "\u20b91,200 \u2013 \u20b91,800"
+        },
+        {
+          "name": "Clutch plate assembly",
+          "priceRange": "\u20b93,500 \u2013 \u20b94,800"
+        },
+        {
+          "name": "Headlamp assembly (LED variants)",
+          "priceRange": "\u20b94,200 \u2013 \u20b96,500"
+        },
+        {
+          "name": "Air filter",
+          "priceRange": "\u20b9350 \u2013 \u20b9550"
+        },
+        {
+          "name": "Front bumper (unpainted)",
+          "priceRange": "\u20b93,800 \u2013 \u20b95,200"
+        }
       ],
       "tip": "Genuine parts are cheapest through the Maruti Suzuki True Value / MGA portal; independent stores near Karol Bagh (Delhi) and Kirti Nagar typically match OEM pricing for older models."
     },
     "faqs": [
-      { "q": "Is the Swift available with a CNG option?", "a": "Yes, Maruti offers a factory-fitted S-CNG kit on select LXI and VXI trims with a claimed mileage of over 30 km/kg." },
-      { "q": "What is the resale value like after 5 years?", "a": "The Swift typically retains 55-60% of its ex-showroom value at the 5-year mark, among the best in the hatchback segment." }
+      {
+        "q": "Is the Swift available with a CNG option?",
+        "a": "Yes, Maruti offers a factory-fitted S-CNG kit on select LXI and VXI trims with a claimed mileage of over 30 km/kg."
+      },
+      {
+        "q": "What is the resale value like after 5 years?",
+        "a": "The Swift typically retains 55-60% of its ex-showroom value at the 5-year mark, among the best in the hatchback segment."
+      }
+    ],
+    "images": [
+      "cars/maruti-suzuki/swift-1.jpg",
+      "cars/maruti-suzuki/swift-2.jpg"
     ]
   },
   {
@@ -93,12 +135,29 @@
       "safety": "6 airbags, ESP, 360-degree camera (top trim)"
     },
     "variants": [
-      { "name": "Sigma", "exShowroomPrice": 699000 },
-      { "name": "Delta", "exShowroomPrice": 789000 },
-      { "name": "Zeta", "exShowroomPrice": 879000 },
-      { "name": "Alpha CVT", "exShowroomPrice": 999000 }
+      {
+        "name": "Sigma",
+        "exShowroomPrice": 699000
+      },
+      {
+        "name": "Delta",
+        "exShowroomPrice": 789000
+      },
+      {
+        "name": "Zeta",
+        "exShowroomPrice": 879000
+      },
+      {
+        "name": "Alpha CVT",
+        "exShowroomPrice": 999000
+      }
     ],
-    "colors": ["Nexa Blue", "Splendid Silver", "Grandeur Grey", "Pearl Arctic White"],
+    "colors": [
+      "Nexa Blue",
+      "Splendid Silver",
+      "Grandeur Grey",
+      "Pearl Arctic White"
+    ],
     "reviews": [
       {
         "author": "Karthik Subramaniam",
@@ -110,16 +169,32 @@
       }
     ],
     "spareParts": {
-      "authorizedServiceNote": "Serviced exclusively through NEXA outlets — pricing is on par with regular Maruti Arena service centres.",
+      "authorizedServiceNote": "Serviced exclusively through NEXA outlets \u2014 pricing is on par with regular Maruti Arena service centres.",
       "commonParts": [
-        { "name": "Front brake pad set", "priceRange": "₹1,400 – ₹1,900" },
-        { "name": "CVT fluid change (full)", "priceRange": "₹3,200 – ₹4,000" },
-        { "name": "Rear tail lamp (LED)", "priceRange": "₹2,800 – ₹3,900" }
+        {
+          "name": "Front brake pad set",
+          "priceRange": "\u20b91,400 \u2013 \u20b91,900"
+        },
+        {
+          "name": "CVT fluid change (full)",
+          "priceRange": "\u20b93,200 \u2013 \u20b94,000"
+        },
+        {
+          "name": "Rear tail lamp (LED)",
+          "priceRange": "\u20b92,800 \u2013 \u20b93,900"
+        }
       ],
-      "tip": "CVT-specific fluid should only be sourced through NEXA — generic CVT fluid can affect long-term smoothness."
+      "tip": "CVT-specific fluid should only be sourced through NEXA \u2014 generic CVT fluid can affect long-term smoothness."
     },
     "faqs": [
-      { "q": "Petrol or CVT — which variant makes more sense?", "a": "For mostly city driving, the CVT is worth the premium for comfort; for highway-heavy use, the manual returns better real-world mileage." }
+      {
+        "q": "Petrol or CVT \u2014 which variant makes more sense?",
+        "a": "For mostly city driving, the CVT is worth the premium for comfort; for highway-heavy use, the manual returns better real-world mileage."
+      }
+    ],
+    "images": [
+      "cars/maruti-suzuki/baleno-1.jpg",
+      "cars/maruti-suzuki/baleno-2.jpg"
     ]
   },
   {
@@ -149,12 +224,29 @@
       "safety": "6 airbags, ESP, 360-camera, TPMS"
     },
     "variants": [
-      { "name": "LXI", "exShowroomPrice": 839000 },
-      { "name": "VXI", "exShowroomPrice": 969000 },
-      { "name": "ZXI", "exShowroomPrice": 1149000 },
-      { "name": "ZXI+ AT Dual Tone", "exShowroomPrice": 1379000 }
+      {
+        "name": "LXI",
+        "exShowroomPrice": 839000
+      },
+      {
+        "name": "VXI",
+        "exShowroomPrice": 969000
+      },
+      {
+        "name": "ZXI",
+        "exShowroomPrice": 1149000
+      },
+      {
+        "name": "ZXI+ AT Dual Tone",
+        "exShowroomPrice": 1379000
+      }
     ],
-    "colors": ["Bluish Black", "Splendid Silver", "Opulent Red", "Grandeur Grey Dual Tone"],
+    "colors": [
+      "Bluish Black",
+      "Splendid Silver",
+      "Opulent Red",
+      "Grandeur Grey Dual Tone"
+    ],
     "reviews": [
       {
         "author": "Neha Verma",
@@ -169,21 +261,37 @@
         "location": "Bengaluru",
         "rating": 4,
         "title": "Great value, road noise at highway speed",
-        "text": "For the price, features are excellent — ventilated seats, 360 camera. Cabin insulation could be better above 100 km/h.",
+        "text": "For the price, features are excellent \u2014 ventilated seats, 360 camera. Cabin insulation could be better above 100 km/h.",
         "date": "2025-09-11"
       }
     ],
     "spareParts": {
       "authorizedServiceNote": "Shares its platform and many parts with the Toyota Urban Cruiser, so genuine parts are also stocked at select Toyota outlets at similar pricing.",
       "commonParts": [
-        { "name": "Front brake pad set", "priceRange": "₹1,600 – ₹2,200" },
-        { "name": "Mild-hybrid battery (12V lithium-ion)", "priceRange": "₹9,500 – ₹12,000" },
-        { "name": "Front bumper with sensors (unpainted)", "priceRange": "₹6,500 – ₹8,800" }
+        {
+          "name": "Front brake pad set",
+          "priceRange": "\u20b91,600 \u2013 \u20b92,200"
+        },
+        {
+          "name": "Mild-hybrid battery (12V lithium-ion)",
+          "priceRange": "\u20b99,500 \u2013 \u20b912,000"
+        },
+        {
+          "name": "Front bumper with sensors (unpainted)",
+          "priceRange": "\u20b96,500 \u2013 \u20b98,800"
+        }
       ],
-      "tip": "Insist on the mild-hybrid battery being sourced genuine — aftermarket substitutes commonly reduce the idle start-stop benefit."
+      "tip": "Insist on the mild-hybrid battery being sourced genuine \u2014 aftermarket substitutes commonly reduce the idle start-stop benefit."
     },
     "faqs": [
-      { "q": "Does the mild-hybrid system need special maintenance?", "a": "No extra maintenance is required beyond regular service intervals; the mild-hybrid battery typically lasts the life of the vehicle under normal use." }
+      {
+        "q": "Does the mild-hybrid system need special maintenance?",
+        "a": "No extra maintenance is required beyond regular service intervals; the mild-hybrid battery typically lasts the life of the vehicle under normal use."
+      }
+    ],
+    "images": [
+      "cars/maruti-suzuki/brezza-1.jpg",
+      "cars/maruti-suzuki/brezza-2.jpg"
     ]
   }
 ]

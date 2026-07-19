@@ -8,6 +8,8 @@ export interface Brand {
   description: string;
   monogram: string;
   modelCount: number;
+  /** Optional path under src/assets/img/brands/ — see README §8 for sourcing real logos. */
+  logoPath?: string;
 }
 
 export interface Variant {
@@ -61,6 +63,8 @@ export interface CarModel {
   rating: number;
   reviewCount: number;
   heroColor: string;
+  /** Optional paths under src/assets/img/cars/<brandSlug>/ — see README §8 for sourcing real photos. */
+  images?: string[];
   exShowroomMin: number;
   exShowroomMax: number;
   onRoadApproxDelhi: number;

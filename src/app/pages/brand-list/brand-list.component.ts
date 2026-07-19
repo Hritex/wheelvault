@@ -20,7 +20,17 @@ import { CarDataService } from '../../core/services/car-data.service';
     <section class="wv-shell wv-brand-grid">
       @for (brand of brands$ | async; track brand.slug) {
         <a [routerLink]="['/brands', brand.slug]" class="wv-brand-tile">
-          <span class="wv-brand-tile__mono">{{ brand.monogram }}</span>
+          <div class="wv-brand-tile__logo-wrap">
+            <span class="wv-brand-tile__mono">{{ brand.monogram }}</span>
+            @if (brand.logoPath) {
+              <img
+                [src]="'assets/img/' + brand.logoPath"
+                [alt]="brand.name + ' logo'"
+                class="wv-brand-tile__logo-img"
+                (error)="$any($event.target).style.display = 'none'"
+              />
+            }
+          </div>
           <div>
             <h2 class="wv-h3">{{ brand.name }}</h2>
             <p class="wv-muted" style="margin:6px 0 0;">{{ brand.tagline }}</p>
@@ -67,6 +77,22 @@ import { CarDataService } from '../../core/services/car-data.service';
         font-family: var(--wv-font-display);
         font-size: 2.2rem;
         color: var(--wv-grey-300);
+      }
+      .wv-brand-tile__logo-wrap {
+        position: relative;
+        height: 44px;
+        display: flex;
+        align-items: center;
+      }
+      .wv-brand-tile__logo-img {
+        position: absolute;
+        inset: 0;
+        height: 100%;
+        width: auto;
+        max-width: 180px;
+        object-fit: contain;
+        object-position: left center;
+        background: var(--wv-white);
       }
       .wv-brand-tile__meta {
         font-size: 0.8rem;

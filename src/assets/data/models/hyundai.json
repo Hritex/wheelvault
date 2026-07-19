@@ -26,12 +26,29 @@
       "safety": "6 airbags, ESC, Level 2 ADAS (top trims)"
     },
     "variants": [
-      { "name": "E", "exShowroomPrice": 1110000 },
-      { "name": "EX", "exShowroomPrice": 1240000 },
-      { "name": "SX", "exShowroomPrice": 1550000 },
-      { "name": "SX(O) ADAS Diesel AT", "exShowroomPrice": 2020000 }
+      {
+        "name": "E",
+        "exShowroomPrice": 1110000
+      },
+      {
+        "name": "EX",
+        "exShowroomPrice": 1240000
+      },
+      {
+        "name": "SX",
+        "exShowroomPrice": 1550000
+      },
+      {
+        "name": "SX(O) ADAS Diesel AT",
+        "exShowroomPrice": 2020000
+      }
     ],
-    "colors": ["Atlas White", "Titan Grey", "Shadow Grey Dual Tone", "Fiery Red"],
+    "colors": [
+      "Atlas White",
+      "Titan Grey",
+      "Shadow Grey Dual Tone",
+      "Fiery Red"
+    ],
     "reviews": [
       {
         "author": "Vikram Rathore",
@@ -46,21 +63,37 @@
         "location": "Kolkata",
         "rating": 4,
         "title": "Best-selling for a reason, but rear diesel clatter is noticeable",
-        "text": "Cabin is quiet at idle but the diesel gets a bit vocal under hard acceleration. Everything else — space, features, ride quality — is excellent.",
+        "text": "Cabin is quiet at idle but the diesel gets a bit vocal under hard acceleration. Everything else \u2014 space, features, ride quality \u2014 is excellent.",
         "date": "2025-10-19"
       }
     ],
     "spareParts": {
       "authorizedServiceNote": "Hyundai's Blue Link connected service network covers most tier-1 and tier-2 cities; the Creta is the highest-stocked model at every outlet.",
       "commonParts": [
-        { "name": "Front brake pad set", "priceRange": "₹1,900 – ₹2,600" },
-        { "name": "Panoramic sunroof motor", "priceRange": "₹7,500 – ₹10,500" },
-        { "name": "Front radar sensor (ADAS)", "priceRange": "₹18,000 – ₹24,000" }
+        {
+          "name": "Front brake pad set",
+          "priceRange": "\u20b91,900 \u2013 \u20b92,600"
+        },
+        {
+          "name": "Panoramic sunroof motor",
+          "priceRange": "\u20b97,500 \u2013 \u20b910,500"
+        },
+        {
+          "name": "Front radar sensor (ADAS)",
+          "priceRange": "\u20b918,000 \u2013 \u20b924,000"
+        }
       ],
-      "tip": "ADAS-related sensor work should only be done at authorised service — calibration equipment is not commonly available at independent garages."
+      "tip": "ADAS-related sensor work should only be done at authorised service \u2014 calibration equipment is not commonly available at independent garages."
     },
     "faqs": [
-      { "q": "Petrol or diesel — which is better for city + highway mix?", "a": "If annual running crosses 15,000-18,000 km with regular highway trips, diesel's efficiency edge pays back faster; otherwise the petrol IVT is smoother for city use." }
+      {
+        "q": "Petrol or diesel \u2014 which is better for city + highway mix?",
+        "a": "If annual running crosses 15,000-18,000 km with regular highway trips, diesel's efficiency edge pays back faster; otherwise the petrol IVT is smoother for city use."
+      }
+    ],
+    "images": [
+      "cars/hyundai/creta-1.jpg",
+      "cars/hyundai/creta-2.jpg"
     ]
   },
   {
@@ -90,12 +123,29 @@
       "safety": "6 airbags, ESC, Hill Assist"
     },
     "variants": [
-      { "name": "Magna", "exShowroomPrice": 729000 },
-      { "name": "Sportz", "exShowroomPrice": 829000 },
-      { "name": "Asta", "exShowroomPrice": 989000 },
-      { "name": "Asta (O) Turbo DCT", "exShowroomPrice": 1149000 }
+      {
+        "name": "Magna",
+        "exShowroomPrice": 729000
+      },
+      {
+        "name": "Sportz",
+        "exShowroomPrice": 829000
+      },
+      {
+        "name": "Asta",
+        "exShowroomPrice": 989000
+      },
+      {
+        "name": "Asta (O) Turbo DCT",
+        "exShowroomPrice": 1149000
+      }
     ],
-    "colors": ["Titan Grey", "Atlas White", "Fiery Red", "Starry Night"],
+    "colors": [
+      "Titan Grey",
+      "Atlas White",
+      "Fiery Red",
+      "Starry Night"
+    ],
     "reviews": [
       {
         "author": "Farhan Sheikh",
@@ -109,14 +159,30 @@
     "spareParts": {
       "authorizedServiceNote": "Standard Hyundai network pricing; turbo-DCT variants require dealer-level diagnostic tools for the transmission.",
       "commonParts": [
-        { "name": "Front brake pad set", "priceRange": "₹1,700 – ₹2,300" },
-        { "name": "DCT clutch pack (turbo variant)", "priceRange": "₹22,000 – ₹28,000" },
-        { "name": "Front grille assembly", "priceRange": "₹3,200 – ₹4,500" }
+        {
+          "name": "Front brake pad set",
+          "priceRange": "\u20b91,700 \u2013 \u20b92,300"
+        },
+        {
+          "name": "DCT clutch pack (turbo variant)",
+          "priceRange": "\u20b922,000 \u2013 \u20b928,000"
+        },
+        {
+          "name": "Front grille assembly",
+          "priceRange": "\u20b93,200 \u2013 \u20b94,500"
+        }
       ],
-      "tip": "For turbo-DCT variants, always get the transmission oil changed at Hyundai-recommended intervals — it is a wet clutch design sensitive to fluid quality."
+      "tip": "For turbo-DCT variants, always get the transmission oil changed at Hyundai-recommended intervals \u2014 it is a wet clutch design sensitive to fluid quality."
     },
     "faqs": [
-      { "q": "Is the turbo DCT reliable long-term?", "a": "Reliability has improved significantly since launch; sticking to Hyundai's recommended transmission fluid change interval is the biggest factor in long-term smoothness." }
+      {
+        "q": "Is the turbo DCT reliable long-term?",
+        "a": "Reliability has improved significantly since launch; sticking to Hyundai's recommended transmission fluid change interval is the biggest factor in long-term smoothness."
+      }
+    ],
+    "images": [
+      "cars/hyundai/i20-1.jpg",
+      "cars/hyundai/i20-2.jpg"
     ]
   },
   {
@@ -146,12 +212,29 @@
       "safety": "6 airbags, ESC, TPMS"
     },
     "variants": [
-      { "name": "E", "exShowroomPrice": 799000 },
-      { "name": "S", "exShowroomPrice": 929000 },
-      { "name": "SX", "exShowroomPrice": 1179000 },
-      { "name": "SX(O) Turbo DCT", "exShowroomPrice": 1379000 }
+      {
+        "name": "E",
+        "exShowroomPrice": 799000
+      },
+      {
+        "name": "S",
+        "exShowroomPrice": 929000
+      },
+      {
+        "name": "SX",
+        "exShowroomPrice": 1179000
+      },
+      {
+        "name": "SX(O) Turbo DCT",
+        "exShowroomPrice": 1379000
+      }
     ],
-    "colors": ["Polar White", "Titan Grey", "Fiery Red", "Denim Blue"],
+    "colors": [
+      "Polar White",
+      "Titan Grey",
+      "Fiery Red",
+      "Denim Blue"
+    ],
     "reviews": [
       {
         "author": "Meera Nair",
@@ -165,14 +248,30 @@
     "spareParts": {
       "authorizedServiceNote": "Shares its parts bin substantially with the i20 and Grand i10 Nios, keeping common part costs relatively low.",
       "commonParts": [
-        { "name": "Front brake pad set", "priceRange": "₹1,700 – ₹2,300" },
-        { "name": "Alloy wheel (single, 16-inch)", "priceRange": "₹6,500 – ₹8,500" },
-        { "name": "Headlamp assembly", "priceRange": "₹4,800 – ₹6,200" }
+        {
+          "name": "Front brake pad set",
+          "priceRange": "\u20b91,700 \u2013 \u20b92,300"
+        },
+        {
+          "name": "Alloy wheel (single, 16-inch)",
+          "priceRange": "\u20b96,500 \u2013 \u20b98,500"
+        },
+        {
+          "name": "Headlamp assembly",
+          "priceRange": "\u20b94,800 \u2013 \u20b96,200"
+        }
       ],
       "tip": "Because parts overlap with the i20, independent Hyundai-specialist garages outside the dealer network can often source them 15-20% cheaper."
     },
     "faqs": [
-      { "q": "Is the diesel Venue still available?", "a": "Diesel availability varies by trim and BS6 Phase 2 compliance updates — check current trim-wise availability with your local dealer before booking." }
+      {
+        "q": "Is the diesel Venue still available?",
+        "a": "Diesel availability varies by trim and BS6 Phase 2 compliance updates \u2014 check current trim-wise availability with your local dealer before booking."
+      }
+    ],
+    "images": [
+      "cars/hyundai/venue-1.jpg",
+      "cars/hyundai/venue-2.jpg"
     ]
   }
 ]

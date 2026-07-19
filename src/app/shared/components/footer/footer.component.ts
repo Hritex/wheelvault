@@ -49,8 +49,8 @@ import { RouterLink } from '@angular/router';
   styles: [
     `
       .wv-footer {
-        background: var(--wv-black);
-        color: var(--wv-white);
+        background: var(--wv-panel-bg);
+        color: var(--wv-panel-text);
         padding-top: 56px;
       }
       .wv-footer__grid {
@@ -61,18 +61,18 @@ import { RouterLink } from '@angular/router';
       }
       .wv-footer__grid a {
         display: block;
-        color: var(--wv-grey-300);
+        color: rgba(250, 250, 249, 0.7);
         padding: 6px 0;
         font-size: 0.92rem;
       }
       .wv-footer__grid a:hover {
-        color: var(--wv-white);
+        color: var(--wv-panel-text);
       }
       .wv-footer__heading {
         font-size: 0.75rem;
         letter-spacing: 0.1em;
         text-transform: uppercase;
-        color: var(--wv-grey-500);
+        color: var(--wv-panel-muted);
         margin-bottom: 12px;
         font-family: var(--wv-font-body);
         font-weight: 600;
@@ -83,7 +83,7 @@ import { RouterLink } from '@angular/router';
         display: flex;
         justify-content: space-between;
         font-size: 0.78rem;
-        color: var(--wv-grey-500);
+        color: var(--wv-panel-muted);
       }
       @media (max-width: 780px) {
         .wv-footer__grid {

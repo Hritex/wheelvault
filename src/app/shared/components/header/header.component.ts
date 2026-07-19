@@ -1,5 +1,6 @@
-import { Component, HostListener, signal } from '@angular/core';
+import { Component, HostListener, inject, signal } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import { ThemeService } from '../../../core/services/theme.service';
 
 @Component({
   selector: 'wv-header',
@@ -18,15 +19,30 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
           <a href="#emi-calculator-anchor" (click)="menuOpen.set(false)">EMI Calculator</a>
         </nav>
 
-        <button
-          class="wv-menu-btn"
-          type="button"
-          (click)="menuOpen.set(!menuOpen())"
-          [attr.aria-expanded]="menuOpen()"
-          aria-label="Toggle menu"
-        >
-          <span></span><span></span><span></span>
-        </button>
+        <div class="wv-header__right">
+          <button
+            class="wv-theme-toggle"
+            type="button"
+            (click)="theme.toggle()"
+            [attr.aria-label]="theme.theme() === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'"
+          >
+            @if (theme.theme() === 'dark') {
+              <span aria-hidden="true">☀</span>
+            } @else {
+              <span aria-hidden="true">☾</span>
+            }
+          </button>
+
+          <button
+            class="wv-menu-btn"
+            type="button"
+            (click)="menuOpen.set(!menuOpen())"
+            [attr.aria-expanded]="menuOpen()"
+            aria-label="Toggle menu"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
       </div>
 
       @if (menuOpen()) {
@@ -83,6 +99,29 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
         height: 2px;
         background: var(--wv-accent);
       }
+      .wv-header__right {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .wv-theme-toggle {
+        width: 40px;
+        height: 40px;
+        border: 1px solid var(--wv-line-strong);
+        background: transparent;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 1.05rem;
+        color: var(--wv-black);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: border-color 0.15s ease, transform 0.15s ease;
+      }
+      .wv-theme-toggle:hover {
+        border-color: var(--wv-black);
+        transform: translateY(-1px);
+      }
       .wv-menu-btn {
         display: none;
         flex-direction: column;
@@ -109,8 +148,8 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
         }
       }
       .wv-mobile-menu {
-        background: var(--wv-black);
-        color: var(--wv-white);
+        background: var(--wv-panel-bg);
+        color: var(--wv-panel-text);
         padding: 24px var(--wv-margin) 40px;
       }
       .wv-mobile-menu nav {
@@ -123,12 +162,13 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
       .wv-mobile-menu__note {
         margin-top: 28px;
         font-size: 0.8rem;
-        color: var(--wv-grey-500);
+        color: var(--wv-panel-muted);
       }
     `,
   ],
 })
 export class HeaderComponent {
+  theme = inject(ThemeService);
   menuOpen = signal(false);
   scrolled = signal(false);
 

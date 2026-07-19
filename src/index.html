@@ -13,6 +13,15 @@
     rel="stylesheet"
   />
   <base href="/" />
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('wv-theme');
+        var theme = stored || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
 </head>
 <body>
   <wv-root></wv-root>

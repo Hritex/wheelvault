@@ -8,6 +8,8 @@ import { RatingStarsComponent } from '../../shared/components/rating-stars/ratin
 import { EmiCalculatorComponent } from '../../shared/components/emi-calculator/emi-calculator.component';
 import { FaqAccordionComponent } from '../../shared/components/faq-accordion/faq-accordion.component';
 import { TitlecaseSlugPipe } from '../../shared/pipes/titlecase-slug.pipe';
+import { ImageGalleryComponent } from '../../shared/components/image-gallery/image-gallery.component';
+import { EnquiryFormComponent } from '../../shared/components/enquiry-form/enquiry-form.component';
 
 @Component({
   selector: 'wv-car-detail',
@@ -20,11 +22,21 @@ import { TitlecaseSlugPipe } from '../../shared/pipes/titlecase-slug.pipe';
     EmiCalculatorComponent,
     FaqAccordionComponent,
     TitlecaseSlugPipe,
+    ImageGalleryComponent,
+    EnquiryFormComponent,
   ],
   template: `
     @if (car$ | async; as car) {
       <!-- 01 Hero -->
       <section class="wv-car-hero" [style.background]="car.heroColor">
+        @if (car.images?.[0]) {
+          <img
+            class="wv-car-hero__bg"
+            [src]="'assets/img/' + car.images![0]"
+            [alt]="car.name"
+            (error)="$any($event.target).style.display = 'none'"
+          />
+        }
         <div class="wv-shell wv-car-hero__inner">
           <a [routerLink]="['/brands', car.brandSlug]" class="wv-back-link">← Back to {{ car.brandSlug | titlecaseSlug }}</a>
           <div class="wv-car-hero__row">
@@ -98,9 +110,16 @@ import { TitlecaseSlugPipe } from '../../shared/pipes/titlecase-slug.pipe';
         </div>
       </section>
 
-      <!-- 05 Reviews -->
+      <!-- 05 Gallery -->
       <section class="wv-section wv-shell">
-        <span class="wv-eyebrow">05 — OWNER REVIEWS</span>
+        <span class="wv-eyebrow">05 — GALLERY</span>
+        <h2 class="wv-h2" style="margin-top:8px; margin-bottom:28px;">A closer look at the {{ car.name }}</h2>
+        <wv-image-gallery [images]="car.images ?? []" [alt]="car.name"></wv-image-gallery>
+      </section>
+
+      <!-- 06 Reviews -->
+      <section class="wv-section wv-shell">
+        <span class="wv-eyebrow">06 — OWNER REVIEWS</span>
         <h2 class="wv-h2" style="margin-top:8px; margin-bottom:28px;">What owners actually say</h2>
         <div class="wv-reviews">
           @for (r of car.reviews; track r.author) {
@@ -119,9 +138,9 @@ import { TitlecaseSlugPipe } from '../../shared/pipes/titlecase-slug.pipe';
         </div>
       </section>
 
-      <!-- 06 Spare parts -->
+      <!-- 07 Spare parts -->
       <section class="wv-section wv-shell">
-        <span class="wv-eyebrow">06 — SPARE PARTS &amp; SERVICE</span>
+        <span class="wv-eyebrow">07 — SPARE PARTS &amp; SERVICE</span>
         <h2 class="wv-h2" style="margin-top:8px;">Where to find parts, and what they cost</h2>
         <p class="wv-muted" style="max-width:64ch; margin-top:10px;">{{ car.spareParts.authorizedServiceNote }}</p>
 
@@ -142,9 +161,14 @@ import { TitlecaseSlugPipe } from '../../shared/pipes/titlecase-slug.pipe';
         <p class="wv-spare-tip"><strong>Tip:</strong> {{ car.spareParts.tip }}</p>
       </section>
 
-      <!-- 07 FAQ -->
-      <section class="wv-section wv-shell" style="border-bottom:none;">
-        <span class="wv-eyebrow">07 — FAQ</span>
+      <!-- 08 Test drive -->
+      <section class="wv-shell" style="padding-top:clamp(48px, 8vw, 96px); padding-bottom:0;">
+        <wv-enquiry-form [carName]="car.name"></wv-enquiry-form>
+      </section>
+
+      <!-- 09 FAQ -->
+      <section class="wv-section wv-shell" style="border-bottom:none; margin-top:clamp(48px, 8vw, 96px); border-top:1px solid var(--wv-line);">
+        <span class="wv-eyebrow">09 — FAQ</span>
         <h2 class="wv-h2" style="margin-top:8px; margin-bottom:8px;">Common questions about the {{ car.name }}</h2>
         <wv-faq-accordion [faqs]="car.faqs"></wv-faq-accordion>
       </section>
@@ -156,6 +180,21 @@ import { TitlecaseSlugPipe } from '../../shared/pipes/titlecase-slug.pipe';
         color: var(--wv-white);
         padding-top: 32px;
         padding-bottom: clamp(48px, 8vw, 88px);
+        position: relative;
+        overflow: hidden;
+      }
+      .wv-car-hero__bg {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.55;
+        z-index: 0;
+      }
+      .wv-car-hero__inner {
+        position: relative;
+        z-index: 1;
       }
       .wv-back-link {
         color: rgba(255, 255, 255, 0.7);

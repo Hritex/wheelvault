@@ -153,11 +153,91 @@ instead, which skips the `/wheelvault/` base-href.
 
 ---
 
-## 7. Known placeholders / next steps
+## 7. Adding real car photos and brand logos
 
-- Hero and brand-card imagery currently uses solid colour swatches
-  (`heroColor` per model) rather than real photography — drop `<img>` tags into
-  the relevant component templates once you have licensed photos per model.
+The site has full image support wired in — brand logos, car hero images, and a
+gallery all render automatically once files exist at the right path, and
+degrade gracefully (falling back to the monogram / colour swatch) if a file is
+missing. **I didn't hard-code actual manufacturer photos or logos into this repo
+myself**, and that's a deliberate choice worth explaining rather than a gap:
+
+- Car photography from Google Images results is almost always copyrighted —
+  owned by the manufacturer, a press agency, or a photographer — and scraping it
+  into a public GitHub Pages site isn't something I can do for you.
+- Brand logos (Maruti Suzuki, Hyundai, Tata Motors, Mahindra) are registered
+  trademarks. Even logo-download sites that let you grab a PNG or SVG typically
+  say outright that usage still requires the trademark owner's permission —
+  downloading it doesn't grant you a licence to publish it.
+
+**What to use instead, in order of safety:**
+
+1. **Official newsroom / media pages** — most manufacturers publish approved
+   logos and car photos specifically for press/editorial use, sometimes with
+   usage guidelines attached:
+   - Maruti Suzuki: marutisuzuki.com → Corporate → Media
+   - Hyundai India: hyundai.com/in → About Us → Media / Newsroom
+   - Tata Motors: tatamotors.com → Media
+   - Mahindra: mahindra.com → Media / Newsroom
+   Check each one's usage terms before publishing — "editorial use" often still
+   excludes commercial use.
+2. **Wikimedia Commons** for simple wordmark logos (e.g. search
+   "File:Maruti Suzuki logo.svg") — many are hosted under a fair-use rationale
+   for brand identification, which is standard practice on comparison/review
+   sites, but double-check the file's own licence tag before relying on it.
+3. **Your own photos**, if you have access to showroom cars — no licensing
+   question at all.
+4. **Licensed stock** (e.g. a stock photo subscription) for generic car imagery
+   where you don't need a specific real model shot.
+
+### Where files go
+
+```
+src/assets/img/brands/<brand-slug>.svg        e.g. maruti-suzuki.svg
+src/assets/img/cars/<brand-slug>/<model-slug>-1.jpg
+src/assets/img/cars/<brand-slug>/<model-slug>-2.jpg
+```
+
+The JSON already points at these exact paths (`logoPath` in `brands.json`,
+`images` in each model file) — just drop a correctly-named file into the
+folder and it appears on the site automatically, no code changes needed. Until
+a file exists, the brand monogram / colour swatch placeholder keeps showing, so
+nothing breaks.
+
+---
+
+## 8. Light / dark mode
+
+A theme toggle (sun/moon icon, top-right of the header) switches the whole site
+between light and dark. It respects the visitor's OS preference on first visit,
+remembers their choice in `localStorage`, and applies before Angular even
+bootstraps (a small inline script in `index.html`) so there's no flash of the
+wrong theme.
+
+Almost every colour in the site is a CSS variable (see `src/styles.scss`), and
+dark mode is implemented by overriding those variables under
+`:root[data-theme='dark']` — components never check the theme directly. If you
+add new UI, use the existing `--wv-*` variables rather than hard-coded colours
+and it will support dark mode automatically. The footer, mobile nav overlay, and
+test-drive form panel intentionally stay dark in both modes (they use separate
+`--wv-panel-*` tokens) to match the reference design's persistent dark accent
+panels.
+
+---
+
+## 9. Test-drive / enquiry form
+
+The "Start your test drive" form on every car page is currently **front-end
+only** — GitHub Pages can't run server code, so submitting shows a confirmation
+message but doesn't send anywhere yet. To make it actually deliver enquiries,
+wire `onSubmit()` in
+`src/app/shared/components/enquiry-form/enquiry-form.component.ts` to a form
+backend such as Formspree, Getform, or a small serverless function — all of
+these accept a plain `fetch()` POST from a static site.
+
+---
+
+## 10. Other known placeholders / next steps
+
 - Only 2–3 flagship models are seeded per brand. Extend each
   `src/assets/data/models/*.json` file with more models as needed — no code
   changes required.

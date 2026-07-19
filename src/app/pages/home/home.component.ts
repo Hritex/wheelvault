@@ -41,7 +41,17 @@ import { map } from 'rxjs';
       <div class="wv-brand-strip">
         @for (brand of brands$ | async; track brand.slug) {
           <a [routerLink]="['/brands', brand.slug]" class="wv-brand-card">
-            <span class="wv-brand-card__mono">{{ brand.monogram }}</span>
+            <div class="wv-brand-card__logo-wrap">
+              <span class="wv-brand-card__mono">{{ brand.monogram }}</span>
+              @if (brand.logoPath) {
+                <img
+                  [src]="'assets/img/' + brand.logoPath"
+                  [alt]="brand.name + ' logo'"
+                  class="wv-brand-card__logo-img"
+                  (error)="$any($event.target).style.display = 'none'"
+                />
+              }
+            </div>
             <span class="wv-brand-card__name">{{ brand.name }}</span>
             <span class="wv-brand-card__tag wv-muted">{{ brand.tagline }}</span>
           </a>
@@ -58,7 +68,15 @@ import { map } from 'rxjs';
       <div class="wv-grid8 wv-featured">
         @for (car of featured$ | async; track car.slug) {
           <a [routerLink]="['/brands', car.brandSlug, car.slug]" class="wv-car-card">
-            <div class="wv-car-card__swatch" [style.background]="car.heroColor"></div>
+            <div class="wv-car-card__swatch" [style.background]="car.heroColor">
+              @if (car.images?.[0]) {
+                <img
+                  [src]="'assets/img/' + car.images![0]"
+                  [alt]="car.name"
+                  (error)="$any($event.target).style.display = 'none'"
+                />
+              }
+            </div>
             <div class="wv-car-card__body">
               <span class="wv-eyebrow">{{ car.bodyType }}</span>
               <h3 class="wv-h3">{{ car.name }}</h3>
@@ -167,6 +185,22 @@ import { map } from 'rxjs';
         font-family: var(--wv-font-display);
         font-size: 1.6rem;
       }
+      .wv-brand-card__logo-wrap {
+        position: relative;
+        height: 40px;
+        display: flex;
+        align-items: center;
+      }
+      .wv-brand-card__logo-img {
+        position: absolute;
+        inset: 0;
+        height: 100%;
+        width: auto;
+        max-width: 140px;
+        object-fit: contain;
+        object-position: left center;
+        background: var(--wv-white);
+      }
       .wv-brand-card__name {
         font-weight: 700;
       }
@@ -183,6 +217,15 @@ import { map } from 'rxjs';
       }
       .wv-car-card__swatch {
         height: 120px;
+        position: relative;
+        overflow: hidden;
+      }
+      .wv-car-card__swatch img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
       }
       .wv-car-card__body {
         padding: 20px;

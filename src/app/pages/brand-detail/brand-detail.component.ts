@@ -13,6 +13,17 @@ import { RatingStarsComponent } from '../../shared/components/rating-stars/ratin
   template: `
     @if (brand$ | async; as brand) {
       <section class="wv-shell wv-brand-head">
+        <div class="wv-brand-head__logo-wrap">
+          @if (brand.logoPath) {
+            <img
+              [src]="'assets/img/' + brand.logoPath"
+              [alt]="brand.name + ' logo'"
+              class="wv-brand-head__logo-img"
+              (error)="$any($event.target).style.display = 'none'"
+            />
+          }
+          <span class="wv-brand-head__mono">{{ brand.monogram }}</span>
+        </div>
         <span class="wv-eyebrow">{{ brand.headquarters }} · SINCE {{ brand.founded }}</span>
         <h1 class="wv-h1">{{ brand.name }}</h1>
         <p class="wv-muted" style="max-width:64ch; font-size:1.05rem;">{{ brand.description }}</p>
@@ -23,6 +34,13 @@ import { RatingStarsComponent } from '../../shared/components/rating-stars/ratin
       @for (car of models$ | async; track car.slug) {
         <a [routerLink]="[car.slug]" class="wv-model-card">
           <div class="wv-model-card__swatch" [style.background]="car.heroColor">
+            @if (car.images?.[0]) {
+              <img
+                [src]="'assets/img/' + car.images![0]"
+                [alt]="car.name"
+                (error)="$any($event.target).style.display = 'none'"
+              />
+            }
             <span class="wv-model-card__body-type">{{ car.bodyType }}</span>
           </div>
           <div class="wv-model-card__body">
@@ -49,6 +67,28 @@ import { RatingStarsComponent } from '../../shared/components/rating-stars/ratin
         flex-direction: column;
         gap: 14px;
       }
+      .wv-brand-head__logo-wrap {
+        position: relative;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 4px;
+      }
+      .wv-brand-head__mono {
+        font-family: var(--wv-font-display);
+        font-size: 2.6rem;
+        color: var(--wv-grey-300);
+      }
+      .wv-brand-head__logo-img {
+        position: absolute;
+        inset: 0;
+        height: 100%;
+        width: auto;
+        max-width: 220px;
+        object-fit: contain;
+        object-position: left center;
+        background: var(--wv-white);
+      }
       .wv-model-grid {
         padding-top: 48px;
         padding-bottom: 72px;
@@ -69,11 +109,23 @@ import { RatingStarsComponent } from '../../shared/components/rating-stars/ratin
       }
       .wv-model-card__swatch {
         height: 160px;
+        position: relative;
+        overflow: hidden;
         display: flex;
         align-items: flex-end;
         padding: 14px;
       }
+      .wv-model-card__swatch img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+      }
       .wv-model-card__body-type {
+        position: relative;
+        z-index: 1;
         color: rgba(255, 255, 255, 0.75);
         font-size: 0.78rem;
         letter-spacing: 0.08em;

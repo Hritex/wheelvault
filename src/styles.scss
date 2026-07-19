@@ -33,6 +33,36 @@
   --wv-gutter: 20px;
   --wv-radius: 2px;
   --wv-max: 1440px;
+
+  /* Fixed "ink panel" tokens — used by footer / mobile menu / hero dark panels.
+     These intentionally do NOT flip with light/dark mode, matching the
+     reference's always-dark contact & footer panels. */
+  --wv-panel-bg: #0e0e10;
+  --wv-panel-text: #fafaf9;
+  --wv-panel-muted: #9a9a96;
+  --wv-panel-line: rgba(255, 255, 255, 0.12);
+
+  color-scheme: light;
+}
+
+/* ---- Dark mode ----
+   Toggled by ThemeService, which sets data-theme="dark" on <html>.
+   Component styles reference the same --wv-* variables throughout, so
+   nothing outside this block needs to change to support dark mode. */
+:root[data-theme='dark'] {
+  --wv-black: #fafaf9;
+  --wv-ink: #f1f1ef;
+  --wv-white: #0e0e10;
+  --wv-grey-100: #1b1b1e;
+  --wv-grey-200: #26262a;
+  --wv-grey-300: #38383d;
+  --wv-grey-500: #85858a;
+  --wv-grey-700: #b7b7ba;
+  --wv-line: rgba(250, 250, 249, 0.12);
+  --wv-line-strong: rgba(250, 250, 249, 0.24);
+  --wv-accent: #ff6a35;
+
+  color-scheme: dark;
 }
 
 * {

@@ -26,19 +26,36 @@
       "safety": "6 airbags, ESP, all-wheel disc brakes (top trims)"
     },
     "variants": [
-      { "name": "Z2", "exShowroomPrice": 1399000 },
-      { "name": "Z4", "exShowroomPrice": 1650000 },
-      { "name": "Z6", "exShowroomPrice": 1950000 },
-      { "name": "Z8L 4WD AT", "exShowroomPrice": 2489000 }
+      {
+        "name": "Z2",
+        "exShowroomPrice": 1399000
+      },
+      {
+        "name": "Z4",
+        "exShowroomPrice": 1650000
+      },
+      {
+        "name": "Z6",
+        "exShowroomPrice": 1950000
+      },
+      {
+        "name": "Z8L 4WD AT",
+        "exShowroomPrice": 2489000
+      }
     ],
-    "colors": ["Napoli Black", "Everest White", "Deep Forest", "Red Rage"],
+    "colors": [
+      "Napoli Black",
+      "Everest White",
+      "Deep Forest",
+      "Red Rage"
+    ],
     "reviews": [
       {
         "author": "Gurpreet Sandhu",
         "location": "Ludhiana",
         "rating": 4.5,
         "title": "Road presence and torque nobody else in segment matches",
-        "text": "Body-on-frame toughness with genuinely modern cabin tech — the combination is hard to find elsewhere. 4WD variant handles Punjab's rural roads without a second thought.",
+        "text": "Body-on-frame toughness with genuinely modern cabin tech \u2014 the combination is hard to find elsewhere. 4WD variant handles Punjab's rural roads without a second thought.",
         "date": "2026-01-18"
       },
       {
@@ -53,14 +70,30 @@
     "spareParts": {
       "authorizedServiceNote": "Mahindra's rural and semi-urban dealer reach is among the best in the industry, particularly useful for owners outside metro cities.",
       "commonParts": [
-        { "name": "Front brake pad set", "priceRange": "₹2,200 – ₹3,000" },
-        { "name": "4WD transfer case actuator", "priceRange": "₹14,000 – ₹18,500" },
-        { "name": "Leaf spring / suspension bush kit", "priceRange": "₹3,500 – ₹5,000" }
+        {
+          "name": "Front brake pad set",
+          "priceRange": "\u20b92,200 \u2013 \u20b93,000"
+        },
+        {
+          "name": "4WD transfer case actuator",
+          "priceRange": "\u20b914,000 \u2013 \u20b918,500"
+        },
+        {
+          "name": "Leaf spring / suspension bush kit",
+          "priceRange": "\u20b93,500 \u2013 \u20b95,000"
+        }
       ],
-      "tip": "For 4WD variants, service the transfer case fluid at Mahindra-recommended intervals — this is the single biggest factor in long-term 4WD reliability."
+      "tip": "For 4WD variants, service the transfer case fluid at Mahindra-recommended intervals \u2014 this is the single biggest factor in long-term 4WD reliability."
     },
     "faqs": [
-      { "q": "Which variant is best for occasional off-roading?", "a": "The Z6 and Z8L with the 4WD option add a low-range transfer case and hill descent control, worth the premium if you regularly leave paved roads." }
+      {
+        "q": "Which variant is best for occasional off-roading?",
+        "a": "The Z6 and Z8L with the 4WD option add a low-range transfer case and hill descent control, worth the premium if you regularly leave paved roads."
+      }
+    ],
+    "images": [
+      "cars/mahindra/scorpio-n-1.jpg",
+      "cars/mahindra/scorpio-n-2.jpg"
     ]
   },
   {
@@ -90,12 +123,29 @@
       "safety": "5-star Global NCAP, 7 airbags, Level 2 ADAS"
     },
     "variants": [
-      { "name": "MX", "exShowroomPrice": 1449000 },
-      { "name": "AX5", "exShowroomPrice": 1750000 },
-      { "name": "AX7", "exShowroomPrice": 2150000 },
-      { "name": "AX7L AWD ADAS", "exShowroomPrice": 2649000 }
+      {
+        "name": "MX",
+        "exShowroomPrice": 1449000
+      },
+      {
+        "name": "AX5",
+        "exShowroomPrice": 1750000
+      },
+      {
+        "name": "AX7",
+        "exShowroomPrice": 2150000
+      },
+      {
+        "name": "AX7L AWD ADAS",
+        "exShowroomPrice": 2649000
+      }
     ],
-    "colors": ["Everest White", "Midnight Black", "Dune Beige", "Red Rage Dual Tone"],
+    "colors": [
+      "Everest White",
+      "Midnight Black",
+      "Dune Beige",
+      "Red Rage Dual Tone"
+    ],
     "reviews": [
       {
         "author": "Tanvi Joshi",
@@ -110,21 +160,37 @@
         "location": "New Delhi",
         "rating": 4,
         "title": "Waiting periods can still be long on top trims",
-        "text": "Car itself is excellent, but AX7L trims occasionally see multi-month waiting periods depending on the region — worth checking with your dealer before finalising a delivery date.",
+        "text": "Car itself is excellent, but AX7L trims occasionally see multi-month waiting periods depending on the region \u2014 worth checking with your dealer before finalising a delivery date.",
         "date": "2025-10-22"
       }
     ],
     "spareParts": {
       "authorizedServiceNote": "As Mahindra's flagship, larger dealerships in metro cities keep the fullest stock of ADAS-related sensors and twin-screen display units.",
       "commonParts": [
-        { "name": "Front brake pad set", "priceRange": "₹2,300 – ₹3,100" },
-        { "name": "Front radar/camera module (ADAS)", "priceRange": "₹20,000 – ₹26,000" },
-        { "name": "Digital instrument cluster", "priceRange": "₹18,000 – ₹24,000" }
+        {
+          "name": "Front brake pad set",
+          "priceRange": "\u20b92,300 \u2013 \u20b93,100"
+        },
+        {
+          "name": "Front radar/camera module (ADAS)",
+          "priceRange": "\u20b920,000 \u2013 \u20b926,000"
+        },
+        {
+          "name": "Digital instrument cluster",
+          "priceRange": "\u20b918,000 \u2013 \u20b924,000"
+        }
       ],
-      "tip": "Any ADAS sensor replacement requires a recalibration at an authorised centre — do not accept uncalibrated aftermarket sensor swaps."
+      "tip": "Any ADAS sensor replacement requires a recalibration at an authorised centre \u2014 do not accept uncalibrated aftermarket sensor swaps."
     },
     "faqs": [
-      { "q": "Is AWD available on the XUV700?", "a": "Yes, AWD is offered on select top diesel automatic trims and pairs with Mahindra's terrain response modes for light off-road use." }
+      {
+        "q": "Is AWD available on the XUV700?",
+        "a": "Yes, AWD is offered on select top diesel automatic trims and pairs with Mahindra's terrain response modes for light off-road use."
+      }
+    ],
+    "images": [
+      "cars/mahindra/xuv700-1.jpg",
+      "cars/mahindra/xuv700-2.jpg"
     ]
   }
 ]
