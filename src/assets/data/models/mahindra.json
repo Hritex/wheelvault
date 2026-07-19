@@ -1,0 +1,130 @@
+[
+  {
+    "slug": "scorpio-n",
+    "brandSlug": "mahindra",
+    "name": "Scorpio-N",
+    "bodyType": "Full-size SUV",
+    "launchYear": 2023,
+    "rating": 4.5,
+    "reviewCount": 1042,
+    "heroColor": "#0E0E10",
+    "exShowroomMin": 1399000,
+    "exShowroomMax": 2489000,
+    "onRoadApproxDelhi": 1650000,
+    "downPaymentSuggested": 280000,
+    "emiApprox": 28900,
+    "emiTenureMonths": 60,
+    "specs": {
+      "engine": "2.2L mHawk diesel / 2.0L Turbo petrol",
+      "power": "132-172 bhp (diesel, tune dependent) / 200 bhp (petrol)",
+      "torque": "300-400 Nm / 380 Nm",
+      "mileage": "16.5 km/l (diesel MT, 4x2)",
+      "transmission": "6-speed MT / 6-speed AT",
+      "fuelType": "Diesel / Petrol",
+      "seating": "7 / 8 (variant dependent)",
+      "bootSpace": "300 litres (third row up)",
+      "safety": "6 airbags, ESP, all-wheel disc brakes (top trims)"
+    },
+    "variants": [
+      { "name": "Z2", "exShowroomPrice": 1399000 },
+      { "name": "Z4", "exShowroomPrice": 1650000 },
+      { "name": "Z6", "exShowroomPrice": 1950000 },
+      { "name": "Z8L 4WD AT", "exShowroomPrice": 2489000 }
+    ],
+    "colors": ["Napoli Black", "Everest White", "Deep Forest", "Red Rage"],
+    "reviews": [
+      {
+        "author": "Gurpreet Sandhu",
+        "location": "Ludhiana",
+        "rating": 4.5,
+        "title": "Road presence and torque nobody else in segment matches",
+        "text": "Body-on-frame toughness with genuinely modern cabin tech — the combination is hard to find elsewhere. 4WD variant handles Punjab's rural roads without a second thought.",
+        "date": "2026-01-18"
+      },
+      {
+        "author": "Ovais Ahmed",
+        "location": "Srinagar",
+        "rating": 4,
+        "title": "Fantastic on hill terrain, fuel costs add up",
+        "text": "Given the weight and low-range 4WD, mileage is naturally on the lower side, but the capability on snow and gravel is unmatched in this price bracket.",
+        "date": "2025-12-09"
+      }
+    ],
+    "spareParts": {
+      "authorizedServiceNote": "Mahindra's rural and semi-urban dealer reach is among the best in the industry, particularly useful for owners outside metro cities.",
+      "commonParts": [
+        { "name": "Front brake pad set", "priceRange": "₹2,200 – ₹3,000" },
+        { "name": "4WD transfer case actuator", "priceRange": "₹14,000 – ₹18,500" },
+        { "name": "Leaf spring / suspension bush kit", "priceRange": "₹3,500 – ₹5,000" }
+      ],
+      "tip": "For 4WD variants, service the transfer case fluid at Mahindra-recommended intervals — this is the single biggest factor in long-term 4WD reliability."
+    },
+    "faqs": [
+      { "q": "Which variant is best for occasional off-roading?", "a": "The Z6 and Z8L with the 4WD option add a low-range transfer case and hill descent control, worth the premium if you regularly leave paved roads." }
+    ]
+  },
+  {
+    "slug": "xuv700",
+    "brandSlug": "mahindra",
+    "name": "XUV700",
+    "bodyType": "Midsize SUV",
+    "launchYear": 2023,
+    "rating": 4.6,
+    "reviewCount": 1288,
+    "heroColor": "#101012",
+    "exShowroomMin": 1449000,
+    "exShowroomMax": 2649000,
+    "onRoadApproxDelhi": 1720000,
+    "downPaymentSuggested": 290000,
+    "emiApprox": 30100,
+    "emiTenureMonths": 60,
+    "specs": {
+      "engine": "2.2L mHawk diesel / 2.0L Turbo petrol",
+      "power": "155-185 bhp (diesel) / 200 bhp (petrol)",
+      "torque": "360-450 Nm / 380 Nm",
+      "mileage": "16.6 km/l (diesel MT)",
+      "transmission": "6-speed MT / 6-speed AT",
+      "fuelType": "Diesel / Petrol",
+      "seating": "5 / 7 (variant dependent)",
+      "bootSpace": "486 litres (5-seat config)",
+      "safety": "5-star Global NCAP, 7 airbags, Level 2 ADAS"
+    },
+    "variants": [
+      { "name": "MX", "exShowroomPrice": 1449000 },
+      { "name": "AX5", "exShowroomPrice": 1750000 },
+      { "name": "AX7", "exShowroomPrice": 2150000 },
+      { "name": "AX7L AWD ADAS", "exShowroomPrice": 2649000 }
+    ],
+    "colors": ["Everest White", "Midnight Black", "Dune Beige", "Red Rage Dual Tone"],
+    "reviews": [
+      {
+        "author": "Tanvi Joshi",
+        "location": "Nashik",
+        "rating": 5,
+        "title": "ADAS + twin-screen setup feels genuinely premium",
+        "text": "The blend of safety tech, road manners and interior space is hard to beat at this price. Adaptive cruise control alone makes long highway drives far less tiring.",
+        "date": "2026-02-27"
+      },
+      {
+        "author": "Rajat Kapoor",
+        "location": "New Delhi",
+        "rating": 4,
+        "title": "Waiting periods can still be long on top trims",
+        "text": "Car itself is excellent, but AX7L trims occasionally see multi-month waiting periods depending on the region — worth checking with your dealer before finalising a delivery date.",
+        "date": "2025-10-22"
+      }
+    ],
+    "spareParts": {
+      "authorizedServiceNote": "As Mahindra's flagship, larger dealerships in metro cities keep the fullest stock of ADAS-related sensors and twin-screen display units.",
+      "commonParts": [
+        { "name": "Front brake pad set", "priceRange": "₹2,300 – ₹3,100" },
+        { "name": "Front radar/camera module (ADAS)", "priceRange": "₹20,000 – ₹26,000" },
+        { "name": "Digital instrument cluster", "priceRange": "₹18,000 – ₹24,000" }
+      ],
+      "tip": "Any ADAS sensor replacement requires a recalibration at an authorised centre — do not accept uncalibrated aftermarket sensor swaps."
+    },
+    "faqs": [
+      { "q": "Is AWD available on the XUV700?", "a": "Yes, AWD is offered on select top diesel automatic trims and pairs with Mahindra's terrain response modes for light off-road use." }
+    ]
+  }
+]

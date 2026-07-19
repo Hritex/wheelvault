@@ -1,0 +1,244 @@
+/* ==========================================================================
+   WheelVault — Global Design System
+   Monochrome editorial base (black / silver / white) with a single vivid
+   accent, inspired by the Behance "Porsche · Singer" concept: oversized
+   confident type, hairline grid, restrained colour, numbered structure.
+   ========================================================================== */
+
+/* Fonts are loaded via <link> tags in index.html (not @import here) so the
+   production build never needs network access to inline them. */
+
+:root {
+  /* Colour */
+  --wv-black: #0e0e10;
+  --wv-ink: #17171a;
+  --wv-white: #fafaf9;
+  --wv-grey-100: #f1f1ef;
+  --wv-grey-200: #e4e4e0;
+  --wv-grey-300: #d2d2cd;
+  --wv-grey-500: #9a9a96;
+  --wv-grey-700: #55555a;
+  --wv-line: rgba(14, 14, 16, 0.12);
+  --wv-line-strong: rgba(14, 14, 16, 0.24);
+  --wv-accent: #ff5a1f;
+  --wv-accent-ink: #7a2b0d;
+  --wv-success: #1e7d4c;
+
+  /* Type */
+  --wv-font-display: 'Archivo Expanded', 'Arial Narrow', sans-serif;
+  --wv-font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Layout */
+  --wv-margin: clamp(20px, 5vw, 64px);
+  --wv-gutter: 20px;
+  --wv-radius: 2px;
+  --wv-max: 1440px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--wv-white);
+  color: var(--wv-black);
+  font-family: var(--wv-font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--wv-font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Focus visibility (kept even in a minimal design) */
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--wv-accent);
+  outline-offset: 2px;
+}
+
+/* ---- Layout shell ---- */
+.wv-shell {
+  max-width: var(--wv-max);
+  margin: 0 auto;
+  padding-left: var(--wv-margin);
+  padding-right: var(--wv-margin);
+}
+
+.wv-section {
+  padding-top: clamp(48px, 8vw, 96px);
+  padding-bottom: clamp(48px, 8vw, 96px);
+  border-bottom: 1px solid var(--wv-line);
+}
+
+.wv-grid8 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: var(--wv-gutter);
+}
+
+@media (max-width: 720px) {
+  .wv-grid8 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* ---- Type scale ---- */
+.wv-h1 {
+  font-size: clamp(2.6rem, 7vw, 6rem);
+  line-height: 0.98;
+}
+
+.wv-h2 {
+  font-size: clamp(2rem, 4.5vw, 3.4rem);
+  line-height: 1.02;
+}
+
+.wv-h3 {
+  font-size: clamp(1.4rem, 2.4vw, 1.9rem);
+  line-height: 1.1;
+}
+
+.wv-eyebrow {
+  font-family: var(--wv-font-body);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--wv-grey-700);
+  font-weight: 600;
+}
+
+.wv-number-huge {
+  font-family: var(--wv-font-display);
+  font-weight: 800;
+  font-size: clamp(3.5rem, 12vw, 9rem);
+  line-height: 0.9;
+  color: var(--wv-grey-200);
+  letter-spacing: -0.03em;
+}
+
+/* ---- Buttons ---- */
+.wv-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: var(--wv-radius);
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.wv-btn:hover {
+  transform: translateY(-1px);
+}
+
+.wv-btn-primary {
+  background: var(--wv-black);
+  color: var(--wv-white);
+}
+
+.wv-btn-primary:hover {
+  background: var(--wv-accent);
+}
+
+.wv-btn-outline {
+  background: transparent;
+  color: var(--wv-black);
+  border-color: var(--wv-line-strong);
+}
+
+.wv-btn-outline:hover {
+  border-color: var(--wv-black);
+}
+
+.wv-btn-accent {
+  background: var(--wv-accent);
+  color: var(--wv-white);
+}
+
+/* ---- Cards ---- */
+.wv-card {
+  border: 1px solid var(--wv-line);
+  border-radius: var(--wv-radius);
+  background: var(--wv-white);
+}
+
+.wv-hairline {
+  border: none;
+  border-top: 1px solid var(--wv-line);
+  margin: 0;
+}
+
+/* ---- Utility ---- */
+.wv-muted {
+  color: var(--wv-grey-700);
+}
+
+.wv-flex {
+  display: flex;
+  align-items: center;
+}
+
+.wv-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border: 1px solid var(--wv-line-strong);
+  border-radius: 999px;
+}
+
+.wv-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

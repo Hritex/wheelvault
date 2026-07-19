@@ -1,0 +1,178 @@
+[
+  {
+    "slug": "creta",
+    "brandSlug": "hyundai",
+    "name": "Creta",
+    "bodyType": "Midsize SUV",
+    "launchYear": 2024,
+    "rating": 4.5,
+    "reviewCount": 1340,
+    "heroColor": "#0E0E10",
+    "exShowroomMin": 1110000,
+    "exShowroomMax": 2020000,
+    "onRoadApproxDelhi": 1300000,
+    "downPaymentSuggested": 220000,
+    "emiApprox": 22800,
+    "emiTenureMonths": 60,
+    "specs": {
+      "engine": "1.5L Smartstream petrol / 1.5L CRDi diesel",
+      "power": "115 bhp (petrol) / 116 bhp (diesel)",
+      "torque": "144 Nm / 250 Nm",
+      "mileage": "17.7 km/l (petrol MT), 20.6 km/l (diesel MT)",
+      "transmission": "6-speed MT / IVT / 6-speed AT",
+      "fuelType": "Petrol / Diesel",
+      "seating": 5,
+      "bootSpace": "433 litres",
+      "safety": "6 airbags, ESC, Level 2 ADAS (top trims)"
+    },
+    "variants": [
+      { "name": "E", "exShowroomPrice": 1110000 },
+      { "name": "EX", "exShowroomPrice": 1240000 },
+      { "name": "SX", "exShowroomPrice": 1550000 },
+      { "name": "SX(O) ADAS Diesel AT", "exShowroomPrice": 2020000 }
+    ],
+    "colors": ["Atlas White", "Titan Grey", "Shadow Grey Dual Tone", "Fiery Red"],
+    "reviews": [
+      {
+        "author": "Vikram Rathore",
+        "location": "Gurugram",
+        "rating": 4.5,
+        "title": "ADAS features genuinely useful on the expressway",
+        "text": "Lane-keep assist and adaptive cruise make the Delhi-Jaipur run far less tiring. Interiors feel a segment above for the price.",
+        "date": "2026-03-02"
+      },
+      {
+        "author": "Priyanka Das",
+        "location": "Kolkata",
+        "rating": 4,
+        "title": "Best-selling for a reason, but rear diesel clatter is noticeable",
+        "text": "Cabin is quiet at idle but the diesel gets a bit vocal under hard acceleration. Everything else — space, features, ride quality — is excellent.",
+        "date": "2025-10-19"
+      }
+    ],
+    "spareParts": {
+      "authorizedServiceNote": "Hyundai's Blue Link connected service network covers most tier-1 and tier-2 cities; the Creta is the highest-stocked model at every outlet.",
+      "commonParts": [
+        { "name": "Front brake pad set", "priceRange": "₹1,900 – ₹2,600" },
+        { "name": "Panoramic sunroof motor", "priceRange": "₹7,500 – ₹10,500" },
+        { "name": "Front radar sensor (ADAS)", "priceRange": "₹18,000 – ₹24,000" }
+      ],
+      "tip": "ADAS-related sensor work should only be done at authorised service — calibration equipment is not commonly available at independent garages."
+    },
+    "faqs": [
+      { "q": "Petrol or diesel — which is better for city + highway mix?", "a": "If annual running crosses 15,000-18,000 km with regular highway trips, diesel's efficiency edge pays back faster; otherwise the petrol IVT is smoother for city use." }
+    ]
+  },
+  {
+    "slug": "i20",
+    "brandSlug": "hyundai",
+    "name": "i20",
+    "bodyType": "Premium Hatchback",
+    "launchYear": 2023,
+    "rating": 4.2,
+    "reviewCount": 588,
+    "heroColor": "#17171A",
+    "exShowroomMin": 729000,
+    "exShowroomMax": 1149000,
+    "onRoadApproxDelhi": 870000,
+    "downPaymentSuggested": 145000,
+    "emiApprox": 14300,
+    "emiTenureMonths": 60,
+    "specs": {
+      "engine": "1.2L Kappa petrol / 1.0L Turbo GDi",
+      "power": "83 bhp / 120 bhp (turbo)",
+      "torque": "115 Nm / 172 Nm (turbo)",
+      "mileage": "20.35 km/l (1.2L MT)",
+      "transmission": "5-speed MT / IVT / 7-speed DCT (turbo)",
+      "fuelType": "Petrol",
+      "seating": 5,
+      "bootSpace": "311 litres",
+      "safety": "6 airbags, ESC, Hill Assist"
+    },
+    "variants": [
+      { "name": "Magna", "exShowroomPrice": 729000 },
+      { "name": "Sportz", "exShowroomPrice": 829000 },
+      { "name": "Asta", "exShowroomPrice": 989000 },
+      { "name": "Asta (O) Turbo DCT", "exShowroomPrice": 1149000 }
+    ],
+    "colors": ["Titan Grey", "Atlas White", "Fiery Red", "Starry Night"],
+    "reviews": [
+      {
+        "author": "Farhan Sheikh",
+        "location": "Ahmedabad",
+        "rating": 4,
+        "title": "Turbo DCT is a genuine hot-hatch feel",
+        "text": "The 1.0 turbo with DCT is surprisingly quick and refined for the segment. Ride is on the firmer side, which some buyers may not expect from a hatchback.",
+        "date": "2025-08-30"
+      }
+    ],
+    "spareParts": {
+      "authorizedServiceNote": "Standard Hyundai network pricing; turbo-DCT variants require dealer-level diagnostic tools for the transmission.",
+      "commonParts": [
+        { "name": "Front brake pad set", "priceRange": "₹1,700 – ₹2,300" },
+        { "name": "DCT clutch pack (turbo variant)", "priceRange": "₹22,000 – ₹28,000" },
+        { "name": "Front grille assembly", "priceRange": "₹3,200 – ₹4,500" }
+      ],
+      "tip": "For turbo-DCT variants, always get the transmission oil changed at Hyundai-recommended intervals — it is a wet clutch design sensitive to fluid quality."
+    },
+    "faqs": [
+      { "q": "Is the turbo DCT reliable long-term?", "a": "Reliability has improved significantly since launch; sticking to Hyundai's recommended transmission fluid change interval is the biggest factor in long-term smoothness." }
+    ]
+  },
+  {
+    "slug": "venue",
+    "brandSlug": "hyundai",
+    "name": "Venue",
+    "bodyType": "Compact SUV",
+    "launchYear": 2023,
+    "rating": 4.1,
+    "reviewCount": 742,
+    "heroColor": "#131315",
+    "exShowroomMin": 799000,
+    "exShowroomMax": 1379000,
+    "onRoadApproxDelhi": 950000,
+    "downPaymentSuggested": 158000,
+    "emiApprox": 16400,
+    "emiTenureMonths": 60,
+    "specs": {
+      "engine": "1.2L petrol / 1.0L Turbo GDi / 1.5L diesel",
+      "power": "83 bhp / 120 bhp / 100 bhp",
+      "torque": "114 Nm / 172 Nm / 240 Nm",
+      "mileage": "18.2 km/l (1.2L MT)",
+      "transmission": "5-speed MT / 7-speed DCT / 6-speed iMT",
+      "fuelType": "Petrol / Diesel",
+      "seating": 5,
+      "bootSpace": "350 litres",
+      "safety": "6 airbags, ESC, TPMS"
+    },
+    "variants": [
+      { "name": "E", "exShowroomPrice": 799000 },
+      { "name": "S", "exShowroomPrice": 929000 },
+      { "name": "SX", "exShowroomPrice": 1179000 },
+      { "name": "SX(O) Turbo DCT", "exShowroomPrice": 1379000 }
+    ],
+    "colors": ["Polar White", "Titan Grey", "Fiery Red", "Denim Blue"],
+    "reviews": [
+      {
+        "author": "Meera Nair",
+        "location": "Kochi",
+        "rating": 4,
+        "title": "Compact footprint, easy to drive in old city lanes",
+        "text": "Perfect size for Kochi's narrower roads while still giving SUV stance and safety kit. Diesel option is getting harder to find on lower trims though.",
+        "date": "2025-07-14"
+      }
+    ],
+    "spareParts": {
+      "authorizedServiceNote": "Shares its parts bin substantially with the i20 and Grand i10 Nios, keeping common part costs relatively low.",
+      "commonParts": [
+        { "name": "Front brake pad set", "priceRange": "₹1,700 – ₹2,300" },
+        { "name": "Alloy wheel (single, 16-inch)", "priceRange": "₹6,500 – ₹8,500" },
+        { "name": "Headlamp assembly", "priceRange": "₹4,800 – ₹6,200" }
+      ],
+      "tip": "Because parts overlap with the i20, independent Hyundai-specialist garages outside the dealer network can often source them 15-20% cheaper."
+    },
+    "faqs": [
+      { "q": "Is the diesel Venue still available?", "a": "Diesel availability varies by trim and BS6 Phase 2 compliance updates — check current trim-wise availability with your local dealer before booking." }
+    ]
+  }
+]
