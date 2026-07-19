@@ -1,0 +1,277 @@
+[
+  {
+    "slug": "nexon",
+    "brandSlug": "tata-motors",
+    "name": "Nexon",
+    "bodyType": "Compact SUV",
+    "launchYear": 2023,
+    "rating": 4.4,
+    "reviewCount": 1105,
+    "heroColor": "#0E0E10",
+    "exShowroomMin": 809000,
+    "exShowroomMax": 1560000,
+    "onRoadApproxDelhi": 970000,
+    "downPaymentSuggested": 160000,
+    "emiApprox": 16900,
+    "emiTenureMonths": 60,
+    "specs": {
+      "engine": "1.2L Turbocharged Revotron petrol / 1.5L Revotorq diesel",
+      "power": "118 bhp (petrol) / 113 bhp (diesel)",
+      "torque": "170 Nm / 260 Nm",
+      "mileage": "17.4 km/l (petrol), 23.2 km/l (diesel)",
+      "transmission": "6-speed MT / 6-speed AMT / 7-speed DCT",
+      "fuelType": "Petrol / Diesel / Electric (Nexon EV variant sold separately)",
+      "seating": 5,
+      "bootSpace": "382 litres",
+      "safety": "5-star Global NCAP, 6 airbags, ESC"
+    },
+    "variants": [
+      {
+        "name": "Smart",
+        "exShowroomPrice": 809000
+      },
+      {
+        "name": "Pure",
+        "exShowroomPrice": 929000
+      },
+      {
+        "name": "Creative",
+        "exShowroomPrice": 1189000
+      },
+      {
+        "name": "Fearless+ DCT",
+        "exShowroomPrice": 1560000
+      }
+    ],
+    "colors": [
+      "Flame Red",
+      "Daytona Grey",
+      "Pristine White",
+      "Moonlit Silver"
+    ],
+    "reviews": [
+      {
+        "author": "Anand Deshmukh",
+        "location": "Nagpur",
+        "rating": 4.5,
+        "title": "5-star safety you can actually feel on bad roads",
+        "text": "Body control over Nagpur's patchy roads is confidence-inspiring. Ride is on the firmer side but never crashy. JBL sound system is a genuine highlight.",
+        "date": "2026-01-25"
+      },
+      {
+        "author": "Ritu Bhandari",
+        "location": "Chandigarh",
+        "rating": 4,
+        "title": "AMT is jerky in stop-go traffic",
+        "text": "Great value overall, and the safety rating gave real peace of mind with kids in the car. AMT gearbox could be smoother at low speeds.",
+        "date": "2025-11-30"
+      }
+    ],
+    "spareParts": {
+      "authorizedServiceNote": "Tata Motors service network has expanded rapidly; the Nexon is stocked as a fast-moving model at nearly all outlets.",
+      "commonParts": [
+        {
+          "name": "Front brake pad set",
+          "priceRange": "\u20b91,500 \u2013 \u20b92,100"
+        },
+        {
+          "name": "Turbo petrol air intake hose",
+          "priceRange": "\u20b91,800 \u2013 \u20b92,600"
+        },
+        {
+          "name": "Front bumper (unpainted)",
+          "priceRange": "\u20b95,500 \u2013 \u20b97,200"
+        }
+      ],
+      "tip": "Tata's genuine parts pricing is generally competitive with segment rivals; ask for the OEM catalogue number to avoid look-alike aftermarket parts."
+    },
+    "faqs": [
+      {
+        "q": "Is the Nexon EV the same as the petrol/diesel Nexon page?",
+        "a": "No \u2014 the Nexon EV has a separate variant line-up, battery warranty terms, and pricing, and is listed as its own model."
+      }
+    ],
+    "images": [
+      "cars/tata-motors/nexon-1.jpg",
+      "cars/tata-motors/nexon-2.jpg"
+    ]
+  },
+  {
+    "slug": "punch",
+    "brandSlug": "tata-motors",
+    "name": "Punch",
+    "bodyType": "Micro SUV",
+    "launchYear": 2023,
+    "rating": 4.3,
+    "reviewCount": 890,
+    "heroColor": "#151517",
+    "exShowroomMin": 609000,
+    "exShowroomMax": 1049000,
+    "onRoadApproxDelhi": 730000,
+    "downPaymentSuggested": 120000,
+    "emiApprox": 12100,
+    "emiTenureMonths": 60,
+    "specs": {
+      "engine": "1.2L Revotron petrol",
+      "power": "88 bhp @ 6000 rpm",
+      "torque": "115 Nm @ 4400 rpm",
+      "mileage": "20.09 km/l (MT)",
+      "transmission": "5-speed MT / 5-speed AMT",
+      "fuelType": "Petrol",
+      "seating": 5,
+      "bootSpace": "366 litres",
+      "safety": "5-star Global NCAP, dual airbags standard, 6 optional"
+    },
+    "variants": [
+      {
+        "name": "Pure",
+        "exShowroomPrice": 609000
+      },
+      {
+        "name": "Adventure",
+        "exShowroomPrice": 729000
+      },
+      {
+        "name": "Accomplished",
+        "exShowroomPrice": 909000
+      },
+      {
+        "name": "Creative+ AMT",
+        "exShowroomPrice": 1049000
+      }
+    ],
+    "colors": [
+      "Tropical Mist",
+      "Daytona Grey",
+      "Atomic Orange",
+      "Meteor Bronze"
+    ],
+    "reviews": [
+      {
+        "author": "Sandeep Rana",
+        "location": "Indore",
+        "rating": 4.5,
+        "title": "SUV stance in a car that parks like a hatchback",
+        "text": "High seating position, tight turning radius and the 5-star safety rating make this ideal for first-time SUV buyers in a crowded city.",
+        "date": "2025-09-05"
+      }
+    ],
+    "spareParts": {
+      "authorizedServiceNote": "Shares engine and several chassis parts with the Tiago/Tigor range, keeping common spares inexpensive and widely available.",
+      "commonParts": [
+        {
+          "name": "Front brake pad set",
+          "priceRange": "\u20b91,300 \u2013 \u20b91,800"
+        },
+        {
+          "name": "Clutch kit (MT)",
+          "priceRange": "\u20b93,200 \u2013 \u20b94,200"
+        },
+        {
+          "name": "Tail lamp assembly",
+          "priceRange": "\u20b91,900 \u2013 \u20b92,700"
+        }
+      ],
+      "tip": "Because the platform is shared with the Tiago/Tigor, several independent garages specialising in Tata hatchbacks can service the Punch at lower labour rates."
+    },
+    "faqs": [
+      {
+        "q": "Is there a CNG version of the Punch?",
+        "a": "Yes, Tata offers a factory-fitted iCNG option on select variants with dual-cylinder technology for retained boot space."
+      }
+    ],
+    "images": [
+      "cars/tata-motors/punch-1.jpg",
+      "cars/tata-motors/punch-2.jpg"
+    ]
+  },
+  {
+    "slug": "harrier",
+    "brandSlug": "tata-motors",
+    "name": "Harrier",
+    "bodyType": "Midsize SUV",
+    "launchYear": 2023,
+    "rating": 4.3,
+    "reviewCount": 615,
+    "heroColor": "#0C0C0E",
+    "exShowroomMin": 1550000,
+    "exShowroomMax": 2510000,
+    "onRoadApproxDelhi": 1830000,
+    "downPaymentSuggested": 310000,
+    "emiApprox": 31800,
+    "emiTenureMonths": 60,
+    "specs": {
+      "engine": "2.0L Kryotec diesel",
+      "power": "170 bhp @ 3750 rpm",
+      "torque": "350 Nm / 380 Nm (AT)",
+      "mileage": "14.6 km/l (MT)",
+      "transmission": "6-speed MT / 6-speed AT",
+      "fuelType": "Diesel",
+      "seating": 5,
+      "bootSpace": "445 litres",
+      "safety": "5-star Global NCAP, 6 airbags, Level 2 ADAS (top trim)"
+    },
+    "variants": [
+      {
+        "name": "Smart",
+        "exShowroomPrice": 1550000
+      },
+      {
+        "name": "Pure",
+        "exShowroomPrice": 1720000
+      },
+      {
+        "name": "Adventure",
+        "exShowroomPrice": 2050000
+      },
+      {
+        "name": "Fearless+ ADAS AT",
+        "exShowroomPrice": 2510000
+      }
+    ],
+    "colors": [
+      "Sunlit Yellow",
+      "Ash Grey",
+      "Pristine White",
+      "Empowered Oxide"
+    ],
+    "reviews": [
+      {
+        "author": "Deepak Chawla",
+        "location": "Dehradun",
+        "rating": 4.5,
+        "title": "Effortless on hill roads, refined diesel",
+        "text": "Regularly drive Dehradun-Mussoorie and the torque delivery makes hill climbs a non-event. Panoramic sunroof and JBL audio elevate the cabin experience.",
+        "date": "2026-02-01"
+      }
+    ],
+    "spareParts": {
+      "authorizedServiceNote": "As a flagship SUV, parts are stocked mainly at larger Tata dealerships in metro and tier-1 cities; smaller towns may need 2-3 days for special order parts.",
+      "commonParts": [
+        {
+          "name": "Front brake pad set",
+          "priceRange": "\u20b92,400 \u2013 \u20b93,200"
+        },
+        {
+          "name": "Turbo diesel injector (single)",
+          "priceRange": "\u20b98,500 \u2013 \u20b911,500"
+        },
+        {
+          "name": "Panoramic sunroof glass",
+          "priceRange": "\u20b922,000 \u2013 \u20b928,000"
+        }
+      ],
+      "tip": "For long highway users, keep the diesel particulate filter service on schedule \u2014 regeneration cycles depend on sustained highway runs."
+    },
+    "faqs": [
+      {
+        "q": "Is a petrol Harrier available?",
+        "a": "As of the current line-up the Harrier is diesel-only; Tata's petrol SUV offerings sit in the Nexon and upcoming Curvv range."
+      }
+    ],
+    "images": [
+      "cars/tata-motors/harrier-1.jpg",
+      "cars/tata-motors/harrier-2.jpg"
+    ]
+  }
+]

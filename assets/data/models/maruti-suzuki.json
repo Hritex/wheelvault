@@ -1,0 +1,297 @@
+[
+  {
+    "slug": "swift",
+    "brandSlug": "maruti-suzuki",
+    "name": "Swift",
+    "bodyType": "Hatchback",
+    "launchYear": 2024,
+    "rating": 4.3,
+    "reviewCount": 812,
+    "heroColor": "#0E0E10",
+    "exShowroomMin": 649000,
+    "exShowroomMax": 949000,
+    "onRoadApproxDelhi": 780000,
+    "downPaymentSuggested": 130000,
+    "emiApprox": 12900,
+    "emiTenureMonths": 60,
+    "specs": {
+      "engine": "1.2L Z-Series, 3-cylinder petrol",
+      "power": "82 bhp @ 5700 rpm",
+      "torque": "112 Nm @ 4300 rpm",
+      "mileage": "24.8 km/l (MT)",
+      "transmission": "5-speed MT / 5-speed AMT",
+      "fuelType": "Petrol",
+      "seating": 5,
+      "bootSpace": "265 litres",
+      "safety": "6 airbags, ESP, Hill Hold Assist"
+    },
+    "variants": [
+      {
+        "name": "LXI",
+        "exShowroomPrice": 649000
+      },
+      {
+        "name": "VXI",
+        "exShowroomPrice": 729000
+      },
+      {
+        "name": "ZXI",
+        "exShowroomPrice": 829000
+      },
+      {
+        "name": "ZXI+ AMT",
+        "exShowroomPrice": 949000
+      }
+    ],
+    "colors": [
+      "Arctic White",
+      "Sizzling Red",
+      "Nexa Blue",
+      "Metallic Silky Silver"
+    ],
+    "reviews": [
+      {
+        "author": "Rohit Malhotra",
+        "location": "Pune",
+        "rating": 4.5,
+        "title": "Best-in-class mileage, exactly as promised",
+        "text": "Two years and 28,000 km in, the Swift has not given a single issue. Real-world mileage sits close to 21-22 km/l in city traffic, which is remarkable. Service costs stay predictable at any Maruti workshop.",
+        "date": "2026-02-14"
+      },
+      {
+        "author": "Ayesha Khan",
+        "location": "Lucknow",
+        "rating": 4,
+        "title": "Great first car, rear seat is tight for tall passengers",
+        "text": "Handling in city traffic is superb and parking is effortless. My only complaint is knee room at the back when the front seat is pushed all the way.",
+        "date": "2025-11-02"
+      }
+    ],
+    "spareParts": {
+      "authorizedServiceNote": "Maruti Suzuki runs India's largest service network \u2014 over 4,300 outlets including Maruti Service Masters and NEXA workshops.",
+      "commonParts": [
+        {
+          "name": "Front brake pad set",
+          "priceRange": "\u20b91,200 \u2013 \u20b91,800"
+        },
+        {
+          "name": "Clutch plate assembly",
+          "priceRange": "\u20b93,500 \u2013 \u20b94,800"
+        },
+        {
+          "name": "Headlamp assembly (LED variants)",
+          "priceRange": "\u20b94,200 \u2013 \u20b96,500"
+        },
+        {
+          "name": "Air filter",
+          "priceRange": "\u20b9350 \u2013 \u20b9550"
+        },
+        {
+          "name": "Front bumper (unpainted)",
+          "priceRange": "\u20b93,800 \u2013 \u20b95,200"
+        }
+      ],
+      "tip": "Genuine parts are cheapest through the Maruti Suzuki True Value / MGA portal; independent stores near Karol Bagh (Delhi) and Kirti Nagar typically match OEM pricing for older models."
+    },
+    "faqs": [
+      {
+        "q": "Is the Swift available with a CNG option?",
+        "a": "Yes, Maruti offers a factory-fitted S-CNG kit on select LXI and VXI trims with a claimed mileage of over 30 km/kg."
+      },
+      {
+        "q": "What is the resale value like after 5 years?",
+        "a": "The Swift typically retains 55-60% of its ex-showroom value at the 5-year mark, among the best in the hatchback segment."
+      }
+    ],
+    "images": [
+      "cars/maruti-suzuki/swift-1.jpg",
+      "cars/maruti-suzuki/swift-2.jpg"
+    ]
+  },
+  {
+    "slug": "baleno",
+    "brandSlug": "maruti-suzuki",
+    "name": "Baleno",
+    "bodyType": "Premium Hatchback",
+    "launchYear": 2022,
+    "rating": 4.2,
+    "reviewCount": 604,
+    "heroColor": "#1B1B1D",
+    "exShowroomMin": 699000,
+    "exShowroomMax": 999000,
+    "onRoadApproxDelhi": 830000,
+    "downPaymentSuggested": 140000,
+    "emiApprox": 13600,
+    "emiTenureMonths": 60,
+    "specs": {
+      "engine": "1.2L Dualjet petrol",
+      "power": "88 bhp @ 6000 rpm",
+      "torque": "113 Nm @ 4400 rpm",
+      "mileage": "22.9 km/l (MT)",
+      "transmission": "5-speed MT / CVT",
+      "fuelType": "Petrol",
+      "seating": 5,
+      "bootSpace": "318 litres",
+      "safety": "6 airbags, ESP, 360-degree camera (top trim)"
+    },
+    "variants": [
+      {
+        "name": "Sigma",
+        "exShowroomPrice": 699000
+      },
+      {
+        "name": "Delta",
+        "exShowroomPrice": 789000
+      },
+      {
+        "name": "Zeta",
+        "exShowroomPrice": 879000
+      },
+      {
+        "name": "Alpha CVT",
+        "exShowroomPrice": 999000
+      }
+    ],
+    "colors": [
+      "Nexa Blue",
+      "Splendid Silver",
+      "Grandeur Grey",
+      "Pearl Arctic White"
+    ],
+    "reviews": [
+      {
+        "author": "Karthik Subramaniam",
+        "location": "Chennai",
+        "rating": 4,
+        "title": "Spacious cabin, premium NEXA feel",
+        "text": "The boot space is genuinely segment-leading and the dashboard doesn't feel like a budget hatch. CVT is smooth for city commutes but slightly lazy on highway overtakes.",
+        "date": "2026-01-08"
+      }
+    ],
+    "spareParts": {
+      "authorizedServiceNote": "Serviced exclusively through NEXA outlets \u2014 pricing is on par with regular Maruti Arena service centres.",
+      "commonParts": [
+        {
+          "name": "Front brake pad set",
+          "priceRange": "\u20b91,400 \u2013 \u20b91,900"
+        },
+        {
+          "name": "CVT fluid change (full)",
+          "priceRange": "\u20b93,200 \u2013 \u20b94,000"
+        },
+        {
+          "name": "Rear tail lamp (LED)",
+          "priceRange": "\u20b92,800 \u2013 \u20b93,900"
+        }
+      ],
+      "tip": "CVT-specific fluid should only be sourced through NEXA \u2014 generic CVT fluid can affect long-term smoothness."
+    },
+    "faqs": [
+      {
+        "q": "Petrol or CVT \u2014 which variant makes more sense?",
+        "a": "For mostly city driving, the CVT is worth the premium for comfort; for highway-heavy use, the manual returns better real-world mileage."
+      }
+    ],
+    "images": [
+      "cars/maruti-suzuki/baleno-1.jpg",
+      "cars/maruti-suzuki/baleno-2.jpg"
+    ]
+  },
+  {
+    "slug": "brezza",
+    "brandSlug": "maruti-suzuki",
+    "name": "Brezza",
+    "bodyType": "Compact SUV",
+    "launchYear": 2022,
+    "rating": 4.4,
+    "reviewCount": 921,
+    "heroColor": "#101012",
+    "exShowroomMin": 839000,
+    "exShowroomMax": 1379000,
+    "onRoadApproxDelhi": 990000,
+    "downPaymentSuggested": 165000,
+    "emiApprox": 17200,
+    "emiTenureMonths": 60,
+    "specs": {
+      "engine": "1.5L K15C petrol",
+      "power": "103 bhp @ 6000 rpm",
+      "torque": "137 Nm @ 4400 rpm",
+      "mileage": "19.8 km/l (MT), 17.4 km/l (AT + mild hybrid)",
+      "transmission": "5-speed MT / 6-speed AT",
+      "fuelType": "Petrol (mild hybrid on AT)",
+      "seating": 5,
+      "bootSpace": "328 litres",
+      "safety": "6 airbags, ESP, 360-camera, TPMS"
+    },
+    "variants": [
+      {
+        "name": "LXI",
+        "exShowroomPrice": 839000
+      },
+      {
+        "name": "VXI",
+        "exShowroomPrice": 969000
+      },
+      {
+        "name": "ZXI",
+        "exShowroomPrice": 1149000
+      },
+      {
+        "name": "ZXI+ AT Dual Tone",
+        "exShowroomPrice": 1379000
+      }
+    ],
+    "colors": [
+      "Bluish Black",
+      "Splendid Silver",
+      "Opulent Red",
+      "Grandeur Grey Dual Tone"
+    ],
+    "reviews": [
+      {
+        "author": "Neha Verma",
+        "location": "Jaipur",
+        "rating": 4.5,
+        "title": "Feels like a genuine SUV, not a jacked-up hatch",
+        "text": "Ground clearance handles broken roads with ease, and the mild-hybrid AT is refreshingly smooth in bumper-to-bumper traffic. Cabin quality has improved a lot over the older Vitara Brezza.",
+        "date": "2025-12-20"
+      },
+      {
+        "author": "Suresh Iyer",
+        "location": "Bengaluru",
+        "rating": 4,
+        "title": "Great value, road noise at highway speed",
+        "text": "For the price, features are excellent \u2014 ventilated seats, 360 camera. Cabin insulation could be better above 100 km/h.",
+        "date": "2025-09-11"
+      }
+    ],
+    "spareParts": {
+      "authorizedServiceNote": "Shares its platform and many parts with the Toyota Urban Cruiser, so genuine parts are also stocked at select Toyota outlets at similar pricing.",
+      "commonParts": [
+        {
+          "name": "Front brake pad set",
+          "priceRange": "\u20b91,600 \u2013 \u20b92,200"
+        },
+        {
+          "name": "Mild-hybrid battery (12V lithium-ion)",
+          "priceRange": "\u20b99,500 \u2013 \u20b912,000"
+        },
+        {
+          "name": "Front bumper with sensors (unpainted)",
+          "priceRange": "\u20b96,500 \u2013 \u20b98,800"
+        }
+      ],
+      "tip": "Insist on the mild-hybrid battery being sourced genuine \u2014 aftermarket substitutes commonly reduce the idle start-stop benefit."
+    },
+    "faqs": [
+      {
+        "q": "Does the mild-hybrid system need special maintenance?",
+        "a": "No extra maintenance is required beyond regular service intervals; the mild-hybrid battery typically lasts the life of the vehicle under normal use."
+      }
+    ],
+    "images": [
+      "cars/maruti-suzuki/brezza-1.jpg",
+      "cars/maruti-suzuki/brezza-2.jpg"
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "maruti-suzuki",
+    "name": "Maruti Suzuki",
+    "shortName": "Maruti",
+    "tagline": "India's most trusted mass-market brand",
+    "founded": 1981,
+    "headquarters": "New Delhi, India",
+    "description": "Maruti Suzuki India Limited is the country's largest passenger vehicle manufacturer, known for fuel-efficient engines, the widest service network in India, and the lowest cost of ownership across segments.",
+    "monogram": "MS",
+    "modelCount": 3,
+    "logoPath": "brands/maruti-suzuki.svg"
+  },
+  {
+    "slug": "hyundai",
+    "name": "Hyundai",
+    "shortName": "Hyundai",
+    "tagline": "Design-led engineering from Korea, built for India",
+    "founded": 1996,
+    "headquarters": "Chennai, Tamil Nadu, India",
+    "description": "Hyundai Motor India is the second-largest carmaker in the country, recognised for feature-loaded interiors, strong crash-safety ratings, and one of the most extensive dealer networks outside of Maruti Suzuki.",
+    "monogram": "HY",
+    "modelCount": 3,
+    "logoPath": "brands/hyundai.svg"
+  },
+  {
+    "slug": "tata-motors",
+    "name": "Tata Motors",
+    "shortName": "Tata",
+    "tagline": "Homegrown safety and design leadership",
+    "founded": 1945,
+    "headquarters": "Mumbai, Maharashtra, India",
+    "description": "Tata Motors is India's homegrown automotive major, credited with resetting safety benchmarks in the mass market and leading the country's transition to electric passenger vehicles.",
+    "monogram": "TM",
+    "modelCount": 3,
+    "logoPath": "brands/tata-motors.svg"
+  },
+  {
+    "slug": "mahindra",
+    "name": "Mahindra",
+    "shortName": "Mahindra",
+    "tagline": "Built for Indian roads, SUVs first",
+    "founded": 1945,
+    "headquarters": "Mumbai, Maharashtra, India",
+    "description": "Mahindra & Mahindra is India's SUV specialist, built its reputation on rugged body-on-frame utility vehicles and has more recently combined that with modern monocoque design and ADAS features.",
+    "monogram": "MH",
+    "modelCount": 2,
+    "logoPath": "brands/mahindra.svg"
+  }
+]
